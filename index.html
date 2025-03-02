@@ -5,30 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EliteCamStars - Coming Soon</title>
     <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             background-color: #0c0c0c; /* Dark background */
             color: #e6b400; /* Gold text color */
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100vh;
-            margin: 0;
+            text-align: center;
+            padding: 20px;
         }
 
         .logo {
-            max-width: 100%; /* Ensures responsiveness */
-            width: 300px; /* Adjust size */
+            max-width: 90%; /* Ensures responsiveness */
+            width: 350px; /* Slightly increased size */
             margin-bottom: 20px;
             display: block;
         }
 
         p {
-            font-size: 20px;
-            margin-top: 10px;
+            font-size: 22px;
+            max-width: 80%; /* Prevents text from stretching too wide */
+            line-height: 1.5;
         }
     </style>
 </head>
