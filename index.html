@@ -6,29 +6,34 @@
     <title>EliteCamStars - Coming Soon</title>
     <style>
         body {
-            background-color: #0c0c0c; /* Dark background to match the logo */
-            color: #e6b400; /* Gold text color to match the logo */
+            background-color: #0c0c0c; /* Dark background */
+            color: #e6b400; /* Gold text color */
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
         }
+
         .logo {
-            max-width: 300px; /* Adjust as needed */
+            max-width: 100%; /* Ensures responsiveness */
+            width: 300px; /* Adjust size */
             margin-bottom: 20px;
+            display: block;
         }
-        h1 {
-            font-size: 36px;
-        }
+
         p {
             font-size: 20px;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <!-- Logo added from GitHub folder -->
-    <img src="images/logo.jpeg" alt="EliteCamStars Logo" class="logo">
-    
-    <h1>EliteCamStars.com</h1>
+    <img src="images/logo.png" alt="EliteCamStars Logo" class="logo">
     <p>Something amazing is coming soon. Stay tuned!</p>
 </body>
 </html>
